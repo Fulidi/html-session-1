@@ -50,10 +50,10 @@ table#two > tbody >tr:nth-child(2){
 table#two > tbody >tr:nth-child(3){
     background-color: rgb(182, 22, 102);
 }
-table#two > tbody >tr td:nth-child(3){
+table#two >tbody td:nth-child(3){
     background-color: rgb(204, 201, 15);
 }
- table#two td:hover {background-color: #fdff92;
+ table#two  > tbody > tr >td:hover {background-color: #fdff92;
 background-position: 100%;
 z-index: 15;}
 table#two th:hover { background-color: darkgray;
