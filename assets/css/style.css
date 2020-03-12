@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+#red{
+    color: red;
+}
+#green{
+    color: green;
+}
+#purple{
+    color: purple;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+  table#one th ,table#one td, table#one {
+    border: 1px solid black;
+    text-align: center;
+
+}
+table#one th ,table#one td{
+    padding: 6px;
+}
+table#two{
+    border-collapse: collapse;
+    
+    
+}
+table#two th, table#two td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 6px;
+
+}
+table#two td:first-of-type{
+    background: blue;
+}
+table#two thead{
+    background-color: chocolate;
+}
+table#two > tbody >tr:nth-child(1){
+    background-color: cornflowerblue;
+}
+table#two > tbody >tr:nth-child(2){
+    background-color: rgb(85, 224, 66);
+}
+table#two > tbody >tr:nth-child(3){
+    background-color: rgb(182, 22, 102);
+}
+table#two > tbody >tr td:nth-child(3){
+    background-color: rgb(204, 201, 15);
+}
+ table#two td:hover {background-color: #fdff92;
+background-position: 100%;
+z-index: 15;}
+table#two th:hover { background-color: darkgray;
+background-position: 100%;
+}
